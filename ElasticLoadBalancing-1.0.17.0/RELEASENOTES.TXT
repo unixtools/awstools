@@ -1,11 +1,19 @@
 Elastic Load Balancing Command Line Tools
 =========================================
 
+Elastic Load Balancing 1.0.17.0 (API 2012-06-01)
+  ============================================================
+  * API support for internal load balancing
+  * Added pagination support for elb-describe-lbs command
+
+Limitation
+----------
+In elb-create-lb-policy, each attribute value must not contain white-spaces.
 
 Elastic Load Balancing CLI version 1.0.15.1 (API 2011-11-15)
-============================================================
-* API support for VPC integration
-
+  ============================================================
+  * API support for VPC integration
+  
 Limitation
 ----------
 In elb-create-lb-policy, each attribute value must not contain white-spaces.
