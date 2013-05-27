@@ -1,0 +1,5 @@
+ec2-api-tools:
+	http://aws.amazon.com/developertools/351
+
+IAMCli:
+	http://aws.amazon.com/developertools/AWS-Identity-and-Access-Management/4143
