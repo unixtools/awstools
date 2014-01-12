@@ -11,4 +11,4 @@ export EC2_HOME=/local/awstools/ec2-api-tools-1.6.7.3
 
 export AWS_IAM_HOME=/local/awstools/IAMCli-1.5.0
 
-export PATH=$AWS_ELB_HOME/bin:$EC2_HOME/bin:$AWS_IAM_HOME/bin:$PATH
+export PATH=$PATH:$AWS_ELB_HOME/bin:$EC2_HOME/bin:$AWS_IAM_HOME/bin
